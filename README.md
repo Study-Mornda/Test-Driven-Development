@@ -4,7 +4,8 @@
 - 스터디 기간 : 2021-07-28 ~ 08-16
 - 책 :  [테스트 주도 개발] (켄트 벡 지음|김창준, 강규영 옮김|인사이트)  
     [![image](http://image.yes24.com/momo/TopCate344/MidCate002/34310491.jpg)](http://www.yes24.com/Product/Goods/12246033)
-
+    > 이미지를 누르면 yes24 페이지로 이동합니다
+    
 # 스터디 목차
 
 
