@@ -117,7 +117,7 @@ doSomething(optional.orElse(() -> shouldHaveThrown(IOException.class)));
 - `@BeforeEach` , `@AfterEach` : 각 테스트 실행 전, 후에 실행 (임시 파일 생성, 삭제)
 - `@BeforeAll` , `@AfterAll` : 클래스의 모든 테스트 실행하기 전, 후 한번만 실행
 → 정적 메서드에 적용한다
-    - 이유?
+    - 이유?  [ -> 논의 했던 이슈!](https://github.com/mu-in/Sandbox/issues/6#issue-962813367)
     - non-static 메서드에 적용하면 JUnitException이 발생함. 정상 적용하려면 테스트 클래스에 `@TestInstance(Lifecycle.PER_CLASS)` 를 달아줘야  한다. (디폴트 : *PER_METHOD*)
 
 ### 테스트 메서드 간 실행 순서 의존과 필드 공유하지 않기
